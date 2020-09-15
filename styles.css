@@ -10,6 +10,27 @@ body {
 }
 
 img {
+    display: none;
     max-width: 100%;
 }
+
+/* Better design for a mobile ann then for a wide screen*/
+@media only screen and (min-width: 500px) {
+    img {
+        display: block;
+    }
+    
+}  
+
+/*
+Other way to implement
+@media only screen and (max-width: 500px) {
+    img {
+        display: none;
+    }
+    
+}  */
+
+
+
 
